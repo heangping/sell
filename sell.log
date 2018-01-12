@@ -1,0 +1,64 @@
+2018-01-12 10:14:12.322  INFO 10748 --- [main] com.imooc.sell.LoggerTest                : Starting LoggerTest on 36A6V789IHH0P4Z with PID 10748 (started by Administrator in D:\MyWorkspace\sell)
+2018-01-12 10:14:12.323  INFO 10748 --- [main] com.imooc.sell.LoggerTest                : No active profile set, falling back to default profiles: default
+2018-01-12 10:14:12.561  INFO 10748 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@8458f04: startup date [Fri Jan 12 10:14:12 CST 2018]; root of context hierarchy
+2018-01-12 10:14:13.529  INFO 10748 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-12 10:14:13.558  INFO 10748 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-12 10:14:13.943  INFO 10748 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-12 10:14:15.572  INFO 10748 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-12 10:14:15.594  INFO 10748 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-12 10:14:15.698  INFO 10748 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-01-12 10:14:15.699  INFO 10748 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-01-12 10:14:15.701  INFO 10748 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-01-12 10:14:15.745  INFO 10748 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-12 10:14:15.889  INFO 10748 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-12 10:14:16.348  INFO 10748 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-12 10:14:16.928  INFO 10748 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@8458f04: startup date [Fri Jan 12 10:14:12 CST 2018]; root of context hierarchy
+2018-01-12 10:14:17.008  INFO 10748 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-12 10:14:17.009  INFO 10748 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-12 10:14:17.042  INFO 10748 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-12 10:14:17.042  INFO 10748 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-12 10:14:17.088  INFO 10748 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-12 10:14:17.604  INFO 10748 --- [main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@8458f04: startup date [Fri Jan 12 10:14:12 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-01-12 10:14:17.605  INFO 10748 --- [main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-12 10:14:17.626  WARN 10748 --- [main] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-01-12 10:14:17.763  INFO 10748 --- [main] com.imooc.sell.LoggerTest                : Started LoggerTest in 5.827 seconds (JVM running for 6.636)
+2018-01-12 10:14:17.794  INFO 10748 --- [main] com.imooc.sell.LoggerTest                : info,,,
+2018-01-12 10:14:17.794  INFO 10748 --- [main] com.imooc.sell.LoggerTest                : name: admin,  pwd: 123456
+2018-01-12 10:14:17.795 ERROR 10748 --- [main] com.imooc.sell.LoggerTest                : error...
+2018-01-12 10:14:17.798  INFO 10748 --- [Thread-3] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@8458f04: startup date [Fri Jan 12 10:14:12 CST 2018]; root of context hierarchy
+2018-01-12 10:14:17.802  INFO 10748 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-01-12 10:15:53.420  INFO 10500 --- [main] com.imooc.sell.LoggerTest                : Starting LoggerTest on 36A6V789IHH0P4Z with PID 10500 (started by Administrator in D:\MyWorkspace\sell)
+2018-01-12 10:15:53.422 DEBUG 10500 --- [main] com.imooc.sell.LoggerTest                : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-01-12 10:15:53.422  INFO 10500 --- [main] com.imooc.sell.LoggerTest                : No active profile set, falling back to default profiles: default
+2018-01-12 10:15:53.466  INFO 10500 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@413d1baf: startup date [Fri Jan 12 10:15:53 CST 2018]; root of context hierarchy
+2018-01-12 10:15:54.120  INFO 10500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-12 10:15:54.140  INFO 10500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-01-12 10:15:54.432  INFO 10500 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-01-12 10:15:55.921  INFO 10500 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-12 10:15:55.936  INFO 10500 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-12 10:15:56.003  INFO 10500 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-01-12 10:15:56.004  INFO 10500 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-01-12 10:15:56.006  INFO 10500 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-01-12 10:15:56.043  INFO 10500 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-12 10:15:56.140  INFO 10500 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-01-12 10:15:56.562  INFO 10500 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-12 10:15:57.084  INFO 10500 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@413d1baf: startup date [Fri Jan 12 10:15:53 CST 2018]; root of context hierarchy
+2018-01-12 10:15:57.160  INFO 10500 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-12 10:15:57.161  INFO 10500 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-12 10:15:57.198  INFO 10500 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-12 10:15:57.198  INFO 10500 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-12 10:15:57.247  INFO 10500 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-12 10:15:57.677  INFO 10500 --- [main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@413d1baf: startup date [Fri Jan 12 10:15:53 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-01-12 10:15:57.679  INFO 10500 --- [main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-01-12 10:15:57.701  WARN 10500 --- [main] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-01-12 10:15:57.858  INFO 10500 --- [main] com.imooc.sell.LoggerTest                : Started LoggerTest in 4.945 seconds (JVM running for 5.663)
+2018-01-12 10:15:57.892 DEBUG 10500 --- [main] com.imooc.sell.LoggerTest                : debug...
+2018-01-12 10:15:57.892  INFO 10500 --- [main] com.imooc.sell.LoggerTest                : info,,,
+2018-01-12 10:15:57.893  INFO 10500 --- [main] com.imooc.sell.LoggerTest                : name: admin,  pwd: 123456
+2018-01-12 10:15:57.893 ERROR 10500 --- [main] com.imooc.sell.LoggerTest                : error...
+2018-01-12 10:15:57.897  INFO 10500 --- [Thread-3] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@413d1baf: startup date [Fri Jan 12 10:15:53 CST 2018]; root of context hierarchy
+2018-01-12 10:15:57.932  INFO 10500 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'

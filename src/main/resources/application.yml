@@ -1,0 +1,17 @@
+server:
+   port: 8081
+   context-path: /sell
+spring:
+   datasource:
+     driver-class-name: com.mysql.jdbc.Driver
+     username: root
+     password: 123456
+     url: jdbc:mysql://111.231.103.47/sell?characterEncoding=utf-8&useSSL=false
+   jpa:
+     show-sql: true
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  file: /D:/MyWorkspace/sell/sell.log
+#  level:
+#    com.imooc.sell.LoggerTest: debug
